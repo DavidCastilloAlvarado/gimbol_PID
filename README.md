@@ -10,12 +10,11 @@ Servo2_roll - pin1
 
 ## COntrol PID
 Sample Time = 8ms
+Close Loop
+  Angulo de inclinación : MPU6050
+  con filtro complementario C1= 0.98 y C2= 0.02
 
-## Close Loop
-Angulo de inclinación : MPU6050
-con filtro complementario C1= 0.98 y C2= 0.02
-
-Librerias:
+## Librerias:
   Arduino:
   #include "Wire.h"
   #include <Servo.h>
