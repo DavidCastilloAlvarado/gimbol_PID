@@ -14,6 +14,7 @@ int max_servo1 = 2000;
 int sampleT=8;
 int pin_pitch = 3;
 int pin_roll = 1;
+int caballito=4;
 /*--------------------------  PID  ---------------------------------*/
 //Define Variables we'll be connecting to
 double Setpoint, Input, Output;
